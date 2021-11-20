@@ -12,7 +12,7 @@ const Search = (props) => {
                     </svg>
                 </button>
             </span>
-            <input type="search" name="search" className="py-2 text-sm pl-10 bg-primary w-full sm:w-96 md:w-96 lg:w-96 xl:w-96 h-10 rounded-lg focus:bg-primary focus:outline-none " placeholder="Search..." autocomplete="off" />
+            <input type="search" name="search" className="py-2 text-sm pl-10 bg-primary w-full sm:w-96 md:w-96 lg:w-96 xl:w-96 h-10 rounded-lg focus:bg-primary focus:outline-none focus:pr-2" placeholder="Search..." autocomplete="off" />
             </div>
         </form>
     );

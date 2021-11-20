@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 const Footer = () => {
     return (
-        <div className="flex justify-between bg-white rounded shadow-gtaf-btn-shadow pt-5 pb-5 pl-6 pr-6 sm:hidden md:hidden lg:hidden">
+        <div className="flex justify-between bg-white rounded shadow-gtaf-btn-shadow pt-5 pb-5 pl-6 pr-6 sm:hidden md:hidden lg:hidden sticky bottom-0 z-10">
              <Link href="/">
                 <a className="grid grid-flow-col auto-cols-max gap-2 text-gtaf-text-color-1 hover:text-gtaf-primary">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 stroke-current stroke-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">

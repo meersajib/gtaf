@@ -22,6 +22,8 @@ module.exports = {
         'gtaf-text-color-1': '#6B6C72',
         'gtaf-primary': '#00C614',
         'danger': '#e3342f',
+        'gtaf-gray-text' : '#88898E',
+        'gtaf-font-color': '#3E3F48',
       },
       fontFamily: {
         sans: ['Inter', ...defaultTheme.fontFamily.sans],
@@ -42,6 +44,8 @@ module.exports = {
       },
       borderColor: {
         'gtaf-border': '#E5E5E6',
+        'gtaf-inner-border': '#B2B2B6',
+        'gtaf-check-border': '#D2D2D5'
       },
       fontSize: {
         'gtaf-font-13px': '13px'

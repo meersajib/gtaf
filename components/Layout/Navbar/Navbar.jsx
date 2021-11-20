@@ -5,13 +5,13 @@ import Search from '../../Form/Search';
 
 const Navbar = () => {
     return (
-        <div className='grid gap-4 grid-cols-2 bg-white h-16 shadow-sm items-center'>
+        <div className='grid gap-4 grid-cols-2 bg-white h-16 shadow-sm items-center z-10 sticky top-0'>
                 <div className="grid sm:grid-cols-gtaf-tab-logo-wrapper  md:grid-cols-gtaf-main-wrapper lg:grid-cols-gtaf-main-wrapper xl:grid-cols-gtaf-main-wrapper items-center">
                     <div className="w-gtaf-left-sidebar">
                         <Link href='/' preFetch={false} >
-                        <a className="pl-8">
-                            <span className="pr-2.5 text-sm	font-medium">Starbucks</span>
-                            <Image height={12} width={12} src='/assets/images/icons/down-filled-triangular-arrow.png' />
+                        <a className="pl-8 inline-grid grid-cols-2">
+                            <span className="pr-2.5 text-sm	font-medium text-gtaf-font-color">Starbucks</span>
+                            <Image height={10} width={10} src='/assets/images/icons/down-filled-triangular-arrow.png' />
                         </a>
                     </Link>
                     </div>
@@ -26,10 +26,10 @@ const Navbar = () => {
                         <Image className="rounded-full" src='/assets/images/me.jpg' height={32} width={32} />
                     </span>
                     <span className="cursor-pointer">
-                        <span className="pr-2.5 text-sm font-medium">
+                        <span className="pr-2.5 text-sm font-medium text-gtaf-font-color">
                             Meer Sajib
                         </span>
-                        <Image height={12} width={12} src='/assets/images/icons/down-filled-triangular-arrow.png' />
+                            <Image height={10} width={10} src='/assets/images/icons/down-filled-triangular-arrow.png' />
                     </span>
                     </div>
                 </div>
