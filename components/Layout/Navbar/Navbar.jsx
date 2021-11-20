@@ -9,7 +9,7 @@ const Navbar = () => {
                 <div className="grid sm:grid-cols-gtaf-tab-logo-wrapper  md:grid-cols-gtaf-main-wrapper lg:grid-cols-gtaf-main-wrapper xl:grid-cols-gtaf-main-wrapper items-center">
                     <div className="w-gtaf-left-sidebar">
                         <Link href='/' preFetch={false} >
-                        <a className="pl-8 inline-grid grid-cols-2">
+                        <a className="pl-8">
                             <span className="pr-2.5 text-sm	font-medium text-gtaf-font-color">Starbucks</span>
                             <Image height={10} width={10} src='/assets/images/icons/down-filled-triangular-arrow.png' />
                         </a>
