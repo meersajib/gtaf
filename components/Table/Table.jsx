@@ -84,7 +84,7 @@ const Table = () => {
                     </span>
                     <span>
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" stroke-linejoin="round" stroke-width="1" d="M19 9l-7 7-7-7" />
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1" d="M19 9l-7 7-7-7" />
                     </svg>
                     </span>
                     </span>
@@ -97,7 +97,7 @@ const Table = () => {
                     </span>
                     <span>
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" stroke-linejoin="round" stroke-width="1" d="M19 9l-7 7-7-7" />
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1" d="M19 9l-7 7-7-7" />
                     </svg>
                     </span>
                     </span>
@@ -106,14 +106,14 @@ const Table = () => {
                     <div>
                         <span className="border-gtaf-border-w border-gtaf-inner-border text-gtaf-gray-text rounded pt-1.5 pb-2 pl-3 pr-3 mr-4 ml-4 cursor-pointer">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" stroke-linejoin="round" stroke-width="1" d="M15 19l-7-7 7-7" />
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1" d="M15 19l-7-7 7-7" />
                         </svg>
                     </span>
                     </div>
                     <div>
                         <span className="border-gtaf-border-w border-gtaf-inner-border text-gtaf-gray-text rounded pt-1.5 pb-2 pl-3 pr-3 mr-6 cursor-pointer">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" stroke-linejoin="round" stroke-width="1" d="M9 5l7 7-7 7" />
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1" d="M9 5l7 7-7 7" />
                         </svg>
                     </span>
                     </div>
